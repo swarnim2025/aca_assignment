@@ -18,11 +18,11 @@ while(k--){
     if(k==0){
         break;
     }
-    cout<<"K"<<" "<<k<<endl;
-    for(int i=0;i<d.size();i++){
-        cout<<d[i]<<" ";
-    }
-    cout<<endl;
+    // cout<<"K"<<" "<<k<<endl;
+    // for(int i=0;i<d.size();i++){
+    //     cout<<d[i]<<" ";
+    // }
+    // cout<<endl;
 int temp= d.back()-d.front();
 sum=sum-(ll)d.front()-(ll)d.back();
 sum+=(ll)temp;
