@@ -30,7 +30,7 @@ d.pop_back();
 d.pop_front();
 auto upper= upper_bound(d.begin(),d.end(),temp);
 d.insert(upper,temp);
-cout<<"mai sum hoon"<<sum<<endl;
+// cout<<"mai sum hoon"<<sum<<endl;
 arr[n-k]=sum;
 
 }
